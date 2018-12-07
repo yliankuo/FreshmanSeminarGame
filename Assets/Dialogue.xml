@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<data>
+
+	<dialogue>
+		<id>1</id>
+		<entity>Person</entity>
+		<message>"Have you heard the news? Apparently Rossum Robotic's released a robot that's supposed to assist workers like us."</message>
+		<dialogue>2</dialogue>
+	</dialogue>
+
+	<dialogue>
+		<id>2</id>
+		<entity>Person</entity>
+		<message>"Huh? What does that mean? Does that mean we'll do less work? Or will it take our jobs? Is our company getting one?"</message>
+		<dialogue></dialogue>
+	</dialogue>
+
+	<dialogue>
+		<id>3</id>
+		<entity>Person</entity>
+		<message>"Hey guys, have you seen the new robot that the manager ordered? It's kind of scary...."</message>
+		<dialogue>4</dialogue>
+	</dialogue>	
+
+	<dialogue>
+		<id>4</id>
+		<entity>Robot</entity>
+		<message>"Beep Boop"</message>
+		<dialogue></dialogue>
+	</dialogue>	
+
+</data>
