@@ -1,31 +1,184 @@
 <?xml version="1.0"?>
 <data>
-
 	<dialogue>
 		<id>1</id>
 		<entity>Person</entity>
-		<message>"Have you heard the news? Apparently Rossum Robotic's released a robot that's supposed to assist workers like us."</message>
+		<message>"I just saw our new manager arrive a little while ago. Hopefully he'll be better than our previous one..."</message>
 		<dialogue>2</dialogue>
 	</dialogue>
-
 	<dialogue>
 		<id>2</id>
 		<entity>Person</entity>
-		<message>"Huh? What does that mean? Does that mean we'll do less work? Or will it take our jobs? Is our company getting one?"</message>
+		<message>"Yeah, our previous manager was pretty bad. He kept establishing crazy quotas and insisting that we weren't working hard enough."</message>
+		<dialogue>3</dialogue>
+	</dialogue>
+	<dialogue>
+		<id>3</id>
+		<entity>Person</entity>
+		<message>"Well luckily Management fired him after a bunch of people started quitting. I guess they got scared that the rest of us would quit too..."</message>
+		<dialogue></dialogue>
+	</dialogue>
+	<dialogue>
+		<id>4</id>
+		<entity>Person</entity>
+		<message>"Sorry to bother you. It's just that the factory is old and the ventilation is pretty poor. The dust and the fumes are getting to our heads, and some of us haven't been feeling well. Is it possible for us to get some time off?"</message>
+		<dialogue></dialogue>
+	</dialogue>
+	<dialogue>
+		<id>5</id>
+		<entity>Person</entity>
+		<message>"Oh, we're done for the day? Thanks man!"</message>
+		<dialogue></dialogue>
+	</dialogue>
+	<dialogue>
+		<id>6</id>
+		<entity>Person</entity>
+		<message>"I suppose that the shift's almost over... I'll head back than... "</message>
+		<dialogue></dialogue>
+	</dialogue>
+	<dialogue>
+		<id>7</id>
+		<entity>Person</entity>
+		<message>"Factory seems empty... And quiet... I miss Frank..."</message>
+		<dialogue>8</dialogue>
+	</dialogue>
+		<dialogue>
+		<id>8</id>
+		<entity>Person</entity>
+		<message>"Yeah, didn't he use to work at that station in the corner? You could always hear him humming that annoying tune. Can't believe I'm starting to miss it now. "</message>
 		<dialogue></dialogue>
 	</dialogue>
 
 	<dialogue>
-		<id>3</id>
+		<id>9</id>
 		<entity>Person</entity>
-		<message>"Hey guys, have you seen the new robot that the manager ordered? It's kind of scary...."</message>
-		<dialogue>4</dialogue>
+		<message>"Robot assistants? To help us manufacture computer chips? I've been doing this job for 15 years, what can a robot possibly do for me?"</message>
+		<dialogue>10</dialogue>
+	</dialogue>
+
+	<dialogue>
+		<id>10</id>
+		<entity>Person</entity>
+		<message>"Hey! Don't be so negative. It might mean we do less work... At the very least we wouldn't have to walk all the way to that damn conveyer belt all the time..."</message>
+		<dialogue>11</dialogue>
+	</dialogue>
+
+	<dialogue>
+		<id>11</id>
+		<entity>Person</entity>
+		<message>"Yeah? Well first it's carrying stuff for us... Than it's gonna take our jobs! Haven't you seen those robot surgeons? If they can operate on you, what's to say those things can't also solder a board?"</message>
+		<dialogue></dialogue>
+	</dialogue>
+
+	<dialogue>
+		<id>12</id>
+		<entity>Person</entity>
+		<message>"Oh today's pay day! I can't believe we're being given a bonus."</message>
+		<dialogue>13</dialogue>
+	</dialogue>
+
+	<dialogue>
+		<id>13</id>
+		<entity>Person</entity>
+		<message>"Yeah? Well it's because Management's afraid we'll quit. Than they'd have no workers..."</message>
+		<dialogue></dialogue>
+	</dialogue>
+
+	<dialogue>
+		<id>14</id>
+		<entity>Person</entity>
+		<message>"So this here is your new workstation, there used be a guy named Frank who worked here. He'd come in everyday with a bright smile and he'd be humming the Star Trek theme song."</message>
+		<dialogue>15</dialogue>
+	</dialogue>
+
+	<dialogue>
+		<id>15</id>
+		<entity>Person</entity>
+		<message>"Well what happened to him?"</message>
+		<dialogue>16</dialogue>
+	</dialogue>
+
+	<dialogue>
+		<id>16</id>
+		<entity>Person</entity>
+		<message>"He quit. The old manager was insane, kept raising our working hours and saying we needed to produce more. Eventually Frank couldn't take it, said he'd find another job where he'd have time to go home before his kids went to bed. "</message>
+		<dialogue></dialogue>
+	</dialogue>
+
+	<dialogue>
+		<id>17</id>
+		<entity>Person</entity>
+		<message>"Hey, guess what! You know those ILLAs that Rossum Robotics makes? Well the manager just bought one."</message>
+		<dialogue>18</dialogue>
+	</dialogue>
+
+	<dialogue>
+		<id>18</id>
+		<entity>Person</entity>
+		<message>"Wait... What? You mean that WAL-E looking thing in the corner where Frank used to work?"</message>
+		<dialogue>19</dialogue>
+	</dialogue>
+
+	<dialogue>
+		<id>19</id>
+		<entity>Robot</entity>
+		<message>"Beep Beep Beep Beep Beep Boop"</message>
+		<dialogue>20</dialogue>
+	</dialogue>
+
+	<dialogue>
+		<id>20</id>
+		<entity>Person</entity>
+		<message>"Yeah. Turns out it doesn't only carry things, it's also pretty good at making electronic chips. Ha, you went pale. Don't worry, it won't replace us anytime, it's super slow."</message>
+		<dialogue></dialogue>
+	</dialogue>
+
+	<dialogue>
+		<id>21</id>
+		<entity>Person</entity>
+		<message>"Hey didn't the manager say that he'd be hiring soon? I wonder who it'll be..."</message>
+		<dialogue></dialogue>
 	</dialogue>	
 
 	<dialogue>
-		<id>4</id>
-		<entity>Robot</entity>
-		<message>"Beep Boop"</message>
+		<id>22</id>
+		<entity>Person</entity>
+		<message>"ILLA's been unsettling me all day. I'm sorry but I keep getting distracted by its soldering."</message>
+		<dialogue>23</dialogue>
+	</dialogue>	
+
+	<dialogue>
+		<id>23</id>
+		<entity>Person</entity>
+		<message>"Yeah, I've soldered for years and I used to think that there was something special to the skill... That there was something that you could only do after years of experience... But seeing ILLA's work, it's crazy how precise its movements are. "</message>
+		<dialogue>24</dialogue>
+	</dialogue>	
+
+	<dialogue>
+		<id>24</id>
+		<entity>Person</entity>
+		<message>"Normally, I'd be able to tell the difference between chips I've made and chips that the others have made. But after looking at ILLA's chips it's uncanny how each chip looks exactly the same. "</message>
+		<dialogue>25</dialogue>
+	</dialogue>	
+
+	<dialogue>
+		<id>25</id>
+		<entity>Person</entity>
+		<message>"I can't help but wonder though... Does it even know what it's doing or is it just performing some task over and over again?"</message>
+		<dialogue></dialogue>
+	</dialogue>	
+
+	<dialogue>
+		<id>26</id>
+		<entity>Person</entity>
+		<message>"I don't think it knows what a circuit board actually is... I can't prove it though... I took a broken board and gave it to ILLA. It figured out that the thing was broken, but it took five minutes to realize."</message>
+		<dialogue>27</dialogue>
+	</dialogue>	
+
+	<dialogue>
+		<id>27</id>
+		<entity>Person</entity>
+		<message>"Yeah how does it even think? I'm afraid to step in front of it sometimes. Does it even realize I'm there or is it just moving along some set path the manager gave it?"</message>
 		<dialogue></dialogue>
 	</dialogue>	
 

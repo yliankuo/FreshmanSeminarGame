@@ -17,13 +17,13 @@
 			<o1>
 				<message>Ok. Let's begin.</message>
 				<result>
-					<human>5</human>
-					<cash>5000</cash>
+					<human>3</human>
+					<cash>3000</cash>
 					<robot>0</robot>
 					<happy>60</happy>
 					<tolerance>60</tolerance>
-					<wage>15</wage>
-					<efficiency>30</efficiency>
+					<wage>20</wage>
+					<efficiency>1</efficiency>
 					<dialogue></dialogue>
 					<map></map>
 					<event>1</event>
@@ -66,7 +66,7 @@
 				</result>
 			</o4>
 		</options>
-	</event>		
+	</event>	
 	<event>
 		<id>1</id>
 		<req>
@@ -77,27 +77,27 @@
 			<robot></robot>
 			<happy></happy>
 		</req>
-		<message>While browsing your terminal, you see an advertisement about a new robot.                                                                 Newly Released From Rossum Robotics: ILLA (Integrated Learning Laborer's Assistant) Guaranteed to increase factory productivity by 30%! Order today for only $4000!</message>
+		<message>As you arrive at your terminal, you overhear a conversation on what the factory was like under the previous manager.</message>
 		<dialogue>1</dialogue>
 		<map></map>
 		<options>
 			<o1>
-				<message>Purchase an ILLA.</message>
+				<message>Continue</message>
 				<result>
 					<human>0</human>
-					<cash>-4000</cash>
-					<robot>1</robot>
+					<cash>0</cash>
+					<robot>0</robot>
 					<happy>0</happy>
 					<tolerance>0</tolerance>
 					<wage>0</wage>
 					<efficiency>0</efficiency>
-					<dialogue>3</dialogue>
+					<dialogue></dialogue>
 					<map></map>
-					<event></event>
+					<event>2</event>
 				</result>
 			</o1>
 			<o2>
-				<message>No way! I'm afraid of ILLA.</message>
+				<message></message>
 				<result>
 					<human>0</human>
 					<cash>0</cash>
@@ -133,38 +133,38 @@
 				</result>
 			</o4>
 		</options>
-	</event>	
+	</event>
 	<event>
-		<id>3</id>
+		<id>2</id>
 		<req>
-			<chance>50</chance>
+			<chance>100</chance>
 			<tolerance></tolerance>
 			<human></human>
 			<cash></cash>
 			<robot></robot>
 			<happy></happy>
 		</req>
-		<message>While browsing your terminal, you see a headline about recent development in the industry.                                             GRan</message>
-		<dialogue>1</dialogue>
+		<message>Part of your new role as a manager is to expand the factory's production by hiring new employees. While traditionally the hiring process would be constrained to human applicants, recent technological developments have led to the creation and release of manufacturing robots. Management has sent a notice requiring you to hire a new worker soon, and you decide to make a decision after the next payday.</message>
+		<dialogue>7</dialogue>
 		<map></map>
 		<options>
 			<o1>
-				<message>Purchase an ILLA.</message>
+				<message>When the time comes, I'll consider my hiring options.</message>
 				<result>
-					<human></human>
-					<cash>-1000</cash>
-					<robot>1</robot>
+					<human>0</human>
+					<cash>0</cash>
+					<robot>0</robot>
 					<happy>0</happy>
 					<tolerance>0</tolerance>
 					<wage>0</wage>
 					<efficiency>0</efficiency>
-					<dialogue>3</dialogue>
+					<dialogue></dialogue>
 					<map></map>
-					<event>3s</event>
+					<event>3</event>
 				</result>
 			</o1>
 			<o2>
-				<message>No way! I'm afraid of ILLA.</message>
+				<message></message>
 				<result>
 					<human>0</human>
 					<cash>0</cash>
@@ -172,7 +172,7 @@
 					<happy>0</happy>
 					<map></map>
 					<dialogue></dialogue>
-					<event>3</event>
+					<event></event>
 				</result>
 			</o2>
 			<o3>
@@ -200,5 +200,612 @@
 				</result>
 			</o4>
 		</options>
-	</event>	
+	</event>
+	<event>
+		<id>3</id>
+		<req>
+			<chance>100</chance>
+			<tolerance></tolerance>
+			<human></human>
+			<cash></cash>
+			<robot></robot>
+			<happy></happy>
+		</req>
+		<message>While working, you hear a bunch of workers talking in alarmed voices about an announcement from U.S. Electronics Corporation. Pulling up your terminal, you realize they're discussing the following article:                                                                                  U.S.E.C Implements Robots in Factories                                             Following the new release of ILLA (Integrated Learning Laborer's Assistant) from Rossum Robotics, the number one electronics company has announced that they will begin introducing robots into their manufacturing plants. The company claims that the robots will assist human workers in designing electronic chips which will result in a 50% increase in productivity. </message>
+		<dialogue>9</dialogue>
+		<map></map>
+		<options>
+			<o1>
+				<message>Continue</message>
+				<result>
+					<human>0</human>
+					<cash>0</cash>
+					<robot>0</robot>
+					<happy>0</happy>
+					<tolerance>0</tolerance>
+					<wage>0</wage>
+					<efficiency>0</efficiency>
+					<dialogue></dialogue>
+					<map></map>
+					<event>4</event>
+				</result>
+			</o1>
+			<o2>
+				<message></message>
+				<result>
+					<human>0</human>
+					<cash>0</cash>
+					<robot>0</robot>
+					<happy>0</happy>
+					<map></map>
+					<dialogue></dialogue>
+					<event></event>
+				</result>
+			</o2>
+			<o3>
+				<message></message>
+				<result>
+					<human></human>
+					<cash></cash>
+					<robot></robot>
+					<happy></happy>
+					<dialogue></dialogue>
+					<map></map>
+					<event></event>
+				</result>
+			</o3>
+			<o4>
+				<message></message>
+				<result>
+					<human></human>
+					<cash></cash>
+					<robot></robot>
+					<happy></happy>
+					<dialogue></dialogue>
+					<map></map>
+					<event></event>
+				</result>
+			</o4>
+		</options>
+	</event>
+	<event>
+		<id>4</id>
+		<req>
+			<chance>100</chance>
+			<tolerance></tolerance>
+			<human></human>
+			<cash></cash>
+			<robot></robot>
+			<happy></happy>
+		</req>
+		<message>While working at your terminal you are interrupted by one of the workers, who appears to be rather pale. </message>
+		<dialogue>4</dialogue>
+		<map></map>
+		<options>
+			<o1>
+				<message>Give them a break.</message>
+				<result>
+					<human>0</human>
+					<cash>0</cash>
+					<robot>0</robot>
+					<happy>10</happy>
+					<tolerance>0</tolerance>
+					<wage>0</wage>
+					<efficiency>0</efficiency>
+					<dialogue>5</dialogue>
+					<map></map>
+					<event>5</event>
+				</result>
+			</o1>
+			<o2>
+				<message>Argue that the workshift is almost over.</message>
+				<result>
+					<human>0</human>
+					<cash>0</cash>
+					<robot>0</robot>
+					<happy>-10</happy>
+					<map></map>
+					<dialogue>6</dialogue>
+					<event>5</event>
+				</result>
+			</o2>
+			<o3>
+				<message></message>
+				<result>
+					<human></human>
+					<cash></cash>
+					<robot></robot>
+					<happy></happy>
+					<dialogue></dialogue>
+					<map></map>
+					<event></event>
+				</result>
+			</o3>
+			<o4>
+				<message></message>
+				<result>
+					<human></human>
+					<cash></cash>
+					<robot></robot>
+					<happy></happy>
+					<dialogue></dialogue>
+					<map></map>
+					<event></event>
+				</result>
+			</o4>
+		</options>
+	</event>
+	<event>
+		<id>5</id>
+		<req>
+			<chance>100</chance>
+			<tolerance></tolerance>
+			<human></human>
+			<cash></cash>
+			<robot></robot>
+			<happy></happy>
+		</req>
+		<message>It's Pay Day. Due to having ended the shift early, the factory has made 2500 dollars. The average hourly wage of a worker would usually be $15. However due to the recent shortage in workers, management has decided to pay them $20 to incentivize them to stay. As they've worked 36 hours this week, you'll need to pay them $2160. As you've worked 40 hours this week and you earn $25 an hour you'll need to be paid $1000. After calculating the costs, it would appear that your factory has lost $660 dollars this week.</message>
+		<dialogue>12</dialogue>
+		<map></map>
+		<options>
+			<o1>
+				<message>Pay your workers and focus on hiring a new employee</message>
+				<result>
+					<human>0</human>
+					<cash>-660</cash>
+					<robot>0</robot>
+					<happy>0</happy>
+					<tolerance>0</tolerance>
+					<wage>0</wage>
+					<efficiency>0</efficiency>
+					<dialogue></dialogue>
+					<map></map>
+					<event>7</event>
+				</result>
+			</o1>
+			<o2>
+				<message></message>
+				<result>
+					<human>0</human>
+					<cash>0</cash>
+					<robot>0</robot>
+					<happy>0</happy>
+					<map></map>
+					<dialogue></dialogue>
+					<event></event>
+				</result>
+			</o2>
+			<o3>
+				<message></message>
+				<result>
+					<human></human>
+					<cash></cash>
+					<robot></robot>
+					<happy></happy>
+					<dialogue></dialogue>
+					<map></map>
+					<event></event>
+				</result>
+			</o3>
+			<o4>
+				<message></message>
+				<result>
+					<human></human>
+					<cash></cash>
+					<robot></robot>
+					<happy></happy>
+					<dialogue></dialogue>
+					<map></map>
+					<event></event>
+				</result>
+			</o4>
+		</options>
+	</event>
+	<event>
+		<id>6</id>
+		<req>
+			<chance>100</chance>
+			<tolerance></tolerance>
+			<human></human>
+			<cash></cash>
+			<robot></robot>
+			<happy></happy>
+		</req>
+		<message>It's Pay Day. The factory has made 3100 dollars. The average hourly wage of a worker would usually be $15. However due to the recent shortage in workers, management has decided to pay them $20 to incentivize them to stay. As they've worked 40 hours this week, you'll need to pay them $2400. As you've worked 40 hours this week and you earn $25 an hour you'll need to be paid $1000. After calculating the costs, it would appear that your factory has lost $300 dollars this week.</message>
+		<dialogue>12</dialogue>
+		<map></map>
+		<options>
+			<o1>
+				<message>Pay your workers and focus on hiring a new employee</message>
+				<result>
+					<human>0</human>
+					<cash>-300</cash>
+					<robot>0</robot>
+					<happy>0</happy>
+					<tolerance>0</tolerance>
+					<wage>0</wage>
+					<efficiency>0</efficiency>
+					<dialogue>5</dialogue>
+					<map></map>
+					<event>7</event>
+				</result>
+			</o1>
+			<o2>
+				<message></message>
+				<result>
+					<human>0</human>
+					<cash>0</cash>
+					<robot>0</robot>
+					<happy>0</happy>
+					<map></map>
+					<dialogue></dialogue>
+					<event></event>
+				</result>
+			</o2>
+			<o3>
+				<message></message>
+				<result>
+					<human></human>
+					<cash></cash>
+					<robot></robot>
+					<happy></happy>
+					<dialogue></dialogue>
+					<map></map>
+					<event></event>
+				</result>
+			</o3>
+			<o4>
+				<message></message>
+				<result>
+					<human></human>
+					<cash></cash>
+					<robot></robot>
+					<happy></happy>
+					<dialogue></dialogue>
+					<map></map>
+					<event></event>
+				</result>
+			</o4>
+		</options>
+	</event>
+	<event>
+		<id>7</id>
+		<req>
+			<chance>100</chance>
+			<tolerance></tolerance>
+			<human></human>
+			<cash></cash>
+			<robot></robot>
+			<happy></happy>
+		</req>
+		<message>You consider hiring a new employee. You have two choices, you could hire another worker or you could purchase a robot. You estimate that another worker would cost $200 to train, that you'd pay them $20 an hour and they'd probably make you a $1000 dollars every 40 hours (i.e. $200 profit). On the otherhand, the robot would cost $1500, wouldn't need to be paid, and would make you $500 every 40 hours.</message>
+		<dialogue>21</dialogue>
+		<map></map>
+		<options>
+			<o1>
+				<message>Hire another worker</message>
+				<result>
+					<human>1</human>
+					<cash>-200</cash>
+					<robot>0</robot>
+					<happy>0</happy>
+					<tolerance>0</tolerance>
+					<wage>0</wage>
+					<efficiency>0</efficiency>
+					<dialogue></dialogue>
+					<map></map>
+					<event>8</event>
+				</result>
+			</o1>
+			<o2>
+				<message>Hire a robot</message>
+				<result>
+					<human>0</human>
+					<cash>-1500</cash>
+					<robot>1</robot>
+					<happy>0</happy>
+					<tolerance>0</tolerance>
+					<wage>0</wage>
+					<efficiency>0</efficiency>
+					<dialogue></dialogue>
+					<map></map>
+					<dialogue></dialogue>
+					<event>9</event>
+				</result>
+			</o2>
+			<o3>
+				<message></message>
+				<result>
+					<human></human>
+					<cash></cash>
+					<robot></robot>
+					<happy></happy>
+					<dialogue></dialogue>
+					<map></map>
+					<event></event>
+				</result>
+			</o3>
+			<o4>
+				<message></message>
+				<result>
+					<human></human>
+					<cash></cash>
+					<robot></robot>
+					<happy></happy>
+					<dialogue></dialogue>
+					<map></map>
+					<event></event>
+				</result>
+			</o4>
+		</options>
+	</event>
+	<event>
+		<id>8</id>
+		<req>
+			<chance>100</chance>
+			<tolerance></tolerance>
+			<human></human>
+			<cash></cash>
+			<robot></robot>
+			<happy></happy>
+		</req>
+		<message>You've hired another worker. As you work at your terminal, you hear your other workers training the new hiree.</message>
+		<dialogue>14</dialogue>
+		<map></map>
+		<options>
+			<o1>
+				<message>Continue</message>
+				<result>
+					<human>0</human>
+					<cash>0</cash>
+					<robot>0</robot>
+					<happy>0</happy>
+					<tolerance>0</tolerance>
+					<wage>0</wage>
+					<efficiency>0</efficiency>
+					<dialogue></dialogue>
+					<map></map>
+					<event>10</event>
+				</result>
+			</o1>
+			<o2>
+				<message></message>
+				<result>
+					<human>0</human>
+					<cash>-1500</cash>
+					<robot>1</robot>
+					<happy>0</happy>
+					<map></map>
+					<dialogue></dialogue>
+					<event>9</event>
+				</result>
+			</o2>
+			<o3>
+				<message></message>
+				<result>
+					<human></human>
+					<cash></cash>
+					<robot></robot>
+					<happy></happy>
+					<dialogue></dialogue>
+					<map></map>
+					<event></event>
+				</result>
+			</o3>
+			<o4>
+				<message></message>
+				<result>
+					<human></human>
+					<cash></cash>
+					<robot></robot>
+					<happy></happy>
+					<dialogue></dialogue>
+					<map></map>
+					<event></event>
+				</result>
+			</o4>
+		</options>
+	</event>
+	<event>
+		<id>9</id>
+		<req>
+			<chance>100</chance>
+			<tolerance></tolerance>
+			<human></human>
+			<cash></cash>
+			<robot></robot>
+			<happy></happy>
+		</req>
+		<message>You've bought a robot. As you work at your terminal, you hear your other workers talking about it.</message>
+		<dialogue>17</dialogue>
+		<map></map>
+		<options>
+			<o1>
+				<message>Continue</message>
+				<result>
+					<human>0</human>
+					<cash>0</cash>
+					<robot>0</robot>
+					<happy>0</happy>
+					<tolerance>0</tolerance>
+					<wage>0</wage>
+					<efficiency>0</efficiency>
+					<dialogue></dialogue>
+					<map></map>
+					<event>11</event>
+				</result>
+			</o1>
+			<o2>
+				<message></message>
+				<result>
+					<human>0</human>
+					<cash>-1500</cash>
+					<robot>1</robot>
+					<happy>0</happy>
+					<map></map>
+					<dialogue></dialogue>
+					<event>9</event>
+				</result>
+			</o2>
+			<o3>
+				<message></message>
+				<result>
+					<human></human>
+					<cash></cash>
+					<robot></robot>
+					<happy></happy>
+					<dialogue></dialogue>
+					<map></map>
+					<event></event>
+				</result>
+			</o3>
+			<o4>
+				<message></message>
+				<result>
+					<human></human>
+					<cash></cash>
+					<robot></robot>
+					<happy></happy>
+					<dialogue></dialogue>
+					<map></map>
+					<event></event>
+				</result>
+			</o4>
+		</options>
+	</event>
+	<event>
+		<id>11</id>
+		<req>
+			<chance>100</chance>
+			<tolerance></tolerance>
+			<human></human>
+			<cash></cash>
+			<robot></robot>
+			<happy></happy>
+		</req>
+		<message>You notice that the workers having been staring at the robot for most of the day. Seeing your attention, they complain that the robot is disrupting their work.</message>
+		<dialogue>22</dialogue>
+		<map></map>
+		<options>
+			<o1>
+				<message>Tell them that you can't refund the robot</message>
+				<result>
+					<human>0</human>
+					<cash>0</cash>
+					<robot>0</robot>
+					<happy>-10</happy>
+					<tolerance>0</tolerance>
+					<wage>0</wage>
+					<efficiency>0</efficiency>
+					<dialogue></dialogue>
+					<map></map>
+					<event>13</event>
+				</result>
+			</o1>
+			<o2>
+				<message></message>
+				<result>
+					<human>0</human>
+					<cash>-1500</cash>
+					<robot>1</robot>
+					<happy>0</happy>
+					<map></map>
+					<dialogue></dialogue>
+					<event>9</event>
+				</result>
+			</o2>
+			<o3>
+				<message></message>
+				<result>
+					<human></human>
+					<cash></cash>
+					<robot></robot>
+					<happy></happy>
+					<dialogue></dialogue>
+					<map></map>
+					<event></event>
+				</result>
+			</o3>
+			<o4>
+				<message></message>
+				<result>
+					<human></human>
+					<cash></cash>
+					<robot></robot>
+					<happy></happy>
+					<dialogue></dialogue>
+					<map></map>
+					<event></event>
+				</result>
+			</o4>
+		</options>
+	</event>
+	<event>
+		<id>13</id>
+		<req>
+			<chance>100</chance>
+			<tolerance></tolerance>
+			<human></human>
+			<cash></cash>
+			<robot></robot>
+			<happy></happy>
+		</req>
+		<message>While working at your terminal, you hear the workers discussing the robot again</message>
+		<dialogue>26</dialogue>
+		<map></map>
+		<options>
+			<o1>
+				<message>Continue</message>
+				<result>
+					<human>0</human>
+					<cash>0</cash>
+					<robot>0</robot>
+					<happy>0</happy>
+					<tolerance>0</tolerance>
+					<wage>0</wage>
+					<efficiency>0</efficiency>
+					<dialogue></dialogue>
+					<map></map>
+					<event>15</event>
+				</result>
+			</o1>
+			<o2>
+				<message></message>
+				<result>
+					<human>0</human>
+					<cash>-1500</cash>
+					<robot>1</robot>
+					<happy>0</happy>
+					<map></map>
+					<dialogue></dialogue>
+					<event>9</event>
+				</result>
+			</o2>
+			<o3>
+				<message></message>
+				<result>
+					<human></human>
+					<cash></cash>
+					<robot></robot>
+					<happy></happy>
+					<dialogue></dialogue>
+					<map></map>
+					<event></event>
+				</result>
+			</o3>
+			<o4>
+				<message></message>
+				<result>
+					<human></human>
+					<cash></cash>
+					<robot></robot>
+					<happy></happy>
+					<dialogue></dialogue>
+					<map></map>
+					<event></event>
+				</result>
+			</o4>
+		</options>
+	</event>
 </data>

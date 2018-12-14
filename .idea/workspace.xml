@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="94f38ad0-c306-47ae-8777-6a8de0cf4511" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,25 +10,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.py" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43">
-              <caret line="155" column="11" lean-forward="true" selection-start-line="155" selection-start-column="11" selection-end-line="155" selection-end-column="11" />
+            <state relative-caret-position="232">
+              <caret line="206" column="31" selection-start-line="206" selection-start-column="31" selection-end-line="206" selection-end-column="31" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
-                <element signature="e#413#532#0" />
-                <element signature="e#212#929#0" />
-                <element signature="e#87#1046#0" />
-                <element signature="e#1909#2937#0" />
-                <element signature="e#2987#4682#0" />
-                <element signature="e#5420#5665#0" />
-                <element signature="e#6640#7404#0" />
-                <element signature="e#7364#7441#0" />
-                <element signature="e#7572#8757#0" />
-                <element signature="e#7334#7377#0" />
-                <element signature="e#9183#10768#0" />
-                <element signature="e#10840#11425#0" />
+                <element signature="e#433#580#0" />
+                <element signature="e#600#906#0" />
+                <element signature="e#931#1050#0" />
+                <element signature="e#1096#1189#0" />
+                <element signature="e#1072#2170#0" />
+                <element signature="e#2243#3202#0" />
+                <element signature="e#3222#4824#0" />
+                <element signature="e#4856#6665#0" />
+                <element signature="e#8336#11003#0" />
+                <element signature="e#11027#11628#0" />
+                <element signature="e#11775#12357#0" />
+                <element signature="e#11712#11739#0" />
+                <element signature="e#11768#12531#0" />
+                <element signature="e#12561#12699#0" />
+                <element signature="e#12723#13874#0" />
+                <element signature="e#13897#13940#0" />
+                <element signature="e#14746#19270#0" />
+                <element signature="e#15455#15803#0" />
+                <element signature="e#16129#16734#0" />
+                <element signature="e#17009#17340#0" />
+                <element signature="e#17755#18272#0" />
+                <element signature="e#18196#18726#0" />
+                <element signature="e#18879#18995#0" />
+                <element signature="e#19227#19772#0" />
+                <element signature="e#20254#20812#0" />
+                <element signature="e#15821#16772#0" />
               </folding>
             </state>
           </provider>
@@ -56,7 +69,13 @@
       <find>drawinfo</find>
       <find>delay = True</find>
       <find>print</find>
+      <find>font</find>
+      <find>dqueue.</find>
+      <find>dqueue.c</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -66,10 +85,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="260" />
-    <option name="y" value="109" />
-    <option name="width" value="1440" />
-    <option name="height" value="737" />
+    <option name="x" value="298" />
+    <option name="y" value="27" />
+    <option name="width" value="1494" />
+    <option name="height" value="878" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -91,7 +110,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -123,6 +142,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
@@ -144,79 +166,63 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="260" y="109" width="1440" height="737" extended-state="0" />
+    <frame x="239" y="22" width="1195" height="702" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="R Packages" order="3" />
-      <window_info anchor="right" id="R Graphics" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50070226" side_tool="true" weight="0.34235668" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49929774" visible="true" weight="0.34565917" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24933921" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49929774" visible="true" weight="0.27719298" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50070226" side_tool="true" weight="0.34235668" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" />
     </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="15" />
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+        <state relative-caret-position="232">
+          <caret line="206" column="31" selection-start-line="206" selection-start-column="31" selection-end-line="206" selection-end-column="31" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <element signature="e#413#532#0" />
-            <element signature="e#212#929#0" />
-            <element signature="e#87#1046#0" />
-            <element signature="e#1909#2937#0" />
-            <element signature="e#2987#4682#0" />
-            <element signature="e#5420#5665#0" />
-            <element signature="e#6640#7404#0" />
-            <element signature="e#7364#7441#0" />
-            <element signature="e#7572#8757#0" />
-            <element signature="e#7334#7377#0" />
-            <element signature="e#9183#10768#0" />
-            <element signature="e#10840#11425#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="155" column="11" lean-forward="true" selection-start-line="155" selection-start-column="11" selection-end-line="155" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <element signature="e#413#532#0" />
-            <element signature="e#212#929#0" />
-            <element signature="e#87#1046#0" />
-            <element signature="e#1909#2937#0" />
-            <element signature="e#2987#4682#0" />
-            <element signature="e#5420#5665#0" />
-            <element signature="e#6640#7404#0" />
-            <element signature="e#7364#7441#0" />
-            <element signature="e#7572#8757#0" />
-            <element signature="e#7334#7377#0" />
-            <element signature="e#9183#10768#0" />
-            <element signature="e#10840#11425#0" />
+            <element signature="e#433#580#0" />
+            <element signature="e#600#906#0" />
+            <element signature="e#931#1050#0" />
+            <element signature="e#1096#1189#0" />
+            <element signature="e#1072#2170#0" />
+            <element signature="e#2243#3202#0" />
+            <element signature="e#3222#4824#0" />
+            <element signature="e#4856#6665#0" />
+            <element signature="e#8336#11003#0" />
+            <element signature="e#11027#11628#0" />
+            <element signature="e#11775#12357#0" />
+            <element signature="e#11712#11739#0" />
+            <element signature="e#11768#12531#0" />
+            <element signature="e#12561#12699#0" />
+            <element signature="e#12723#13874#0" />
+            <element signature="e#13897#13940#0" />
+            <element signature="e#14746#19270#0" />
+            <element signature="e#15455#15803#0" />
+            <element signature="e#16129#16734#0" />
+            <element signature="e#17009#17340#0" />
+            <element signature="e#17755#18272#0" />
+            <element signature="e#18196#18726#0" />
+            <element signature="e#18879#18995#0" />
+            <element signature="e#19227#19772#0" />
+            <element signature="e#20254#20812#0" />
+            <element signature="e#15821#16772#0" />
           </folding>
         </state>
       </provider>
